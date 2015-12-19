@@ -13,6 +13,7 @@
 		E9A4DED11C253BFE00BAEA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A4DECF1C253BFE00BAEA1E /* Main.storyboard */; };
 		E9A4DED31C253BFE00BAEA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A4DED21C253BFE00BAEA1E /* Assets.xcassets */; };
 		E9A4DED61C253BFE00BAEA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A4DED41C253BFE00BAEA1E /* LaunchScreen.storyboard */; };
+		E9A4DEDF1C253C0F00BAEA1E /* GridTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A4DEDE1C253C0F00BAEA1E /* GridTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E9A4DED21C253BFE00BAEA1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9A4DED51C253BFE00BAEA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9A4DED71C253BFE00BAEA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A4DEDD1C253C0F00BAEA1E /* GridTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTableView.h; sourceTree = "<group>"; };
+		E9A4DEDE1C253C0F00BAEA1E /* GridTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E9A4DED41C253BFE00BAEA1E /* LaunchScreen.storyboard */,
 				E9A4DED71C253BFE00BAEA1E /* Info.plist */,
 				E9A4DEC61C253BFE00BAEA1E /* Supporting Files */,
+				E9A4DEDD1C253C0F00BAEA1E /* GridTableView.h */,
+				E9A4DEDE1C253C0F00BAEA1E /* GridTableView.m */,
 			);
 			path = GridTableViewSample;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				E9A4DECE1C253BFE00BAEA1E /* ViewController.m in Sources */,
 				E9A4DECB1C253BFE00BAEA1E /* AppDelegate.m in Sources */,
 				E9A4DEC81C253BFE00BAEA1E /* main.m in Sources */,
+				E9A4DEDF1C253C0F00BAEA1E /* GridTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
