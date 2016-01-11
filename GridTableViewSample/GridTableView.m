@@ -68,13 +68,13 @@
             UIView *grid = [self.gridDataSource gridTableView:self viewForColumn:i];
             CGFloat width = CGRectGetWidth(self.bounds) / numberOfColumns;
             grid.frame = CGRectMake(width * i, 0.0, width, 44.0f);
-            grid.tag = i;
+            grid.tag = i + 1;
             [cell addSubview:grid];
         }
     }
     
     for (NSUInteger i=0; i<numberOfColumns; i++) {
-        [self.gridDataSource updateGrid:[cell viewWithTag:i] atRow:indexPath.row column:i];
+        [self.gridDataSource updateGrid:[cell viewWithTag:i + 1] atRow:indexPath.row column:i];
     }
     
     return cell;

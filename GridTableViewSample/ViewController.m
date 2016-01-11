@@ -75,7 +75,9 @@
             break;
         case 2: {
             UIButton *button = (UIButton *)view;
-            button.titleLabel.text = @"ccc";
+//            button.titleLabel.text = @"ccc";
+            [button setTitle:@"ccc" forState:UIControlStateNormal];
+
         }
             break;
         default:
